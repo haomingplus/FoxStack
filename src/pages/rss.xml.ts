@@ -24,12 +24,12 @@ export async function GET(context: APIContext) {
 	return rss({
 		title: siteConfig.title,
 		description: siteConfig.subtitle || "No description",
-		site: context.site ?? "https://firefly.cuteleaf.cn",
+		site: context.site ?? "https://www.foxstack.cn",
 		customData: `
 		<language>${siteConfig.lang}</language>
-		<templateTheme>Firefly</templateTheme>
+		<templateTheme>Foxstack</templateTheme>
 		<templateThemeVersion>${pkg.version}</templateThemeVersion>
-		<templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl>
+		<templateThemeUrl>https://github.com/haomingplus/FoxStack</templateThemeUrl>
 		<lastBuildDate>${formatDateI18nWithTime(new Date())}</lastBuildDate>`,
 		items: blog.map((post) => {
 			const content =

@@ -8,7 +8,7 @@ export const spineModelConfig: SpineModelConfig = {
 	// Spine模型配置
 	model: {
 		// Spine模型文件路径
-		path: "/pio/models/spine/firefly/1310.json",
+		path: "/pio/models/spine/foxstack/1310.json",
 		// 模型缩放比例
 		scale: 1.0,
 		// X轴偏移

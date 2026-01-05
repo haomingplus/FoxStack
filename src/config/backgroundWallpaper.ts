@@ -24,7 +24,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "FoxStack!",
 			// 主页横幅副标题
 			subtitle: [
 				"In Reddened Chrysalis, I Once Rest",

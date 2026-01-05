@@ -41,7 +41,7 @@ export const commentConfig: CommentConfig = {
 	//giscus评论系统配置
 	giscus: {
 		// 设置 Giscus 评论系统仓库
-		repo: "CuteLeaf/Firefly",
+		repo: "CuteLeaf/FoxStack",
 		// 设置 Giscus 评论系统仓库ID
 		repoId: "R_kgD2gfdFGd",
 		// 设置 Giscus 评论系统分类
@@ -67,6 +67,6 @@ export const commentConfig: CommentConfig = {
 	//disqus评论系统配置
 	disqus: {
 		// 获取 Disqus 评论系统
-		shortname: "firefly",
+		shortname: "foxstack",
 	},
 };

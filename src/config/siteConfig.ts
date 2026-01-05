@@ -7,27 +7,35 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "FoxStack",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "理解技术，而非记住技术",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://foxstack.cn",
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"FoxStack 是一个技术博客，用于记录在软件开发过程中，对技术原理、工程实践与系统设计的思考。这里不追求结论的速成，而是尝试还原技术背后的逻辑、背景与取舍，让复杂问题可以被理解，而不是被记住。",
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
+		"FoxStack",
 		"技术博客",
+		"博客",
 		"静态博客",
+		"软件工程",
+		"系统设计",
+		"技术思考",
+		"工程实践",
+		"技术原理",
+		"架构设计",
+		"分布式系统",
+		"并发编程",
+		"性能分析",
+		"系统架构",
+		"技术记录"
 	],
 
 	// 主题色
@@ -61,11 +69,11 @@ export const siteConfig: SiteConfig = {
 		// { type: "image", value: "https://example.com/logo.png", alt: "Firefly Logo" }
 		logo: {
 			type: "image",
-			value: "/assets/images/firefly.png",
+			value: "/assets/images/foxstack.png",
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly",
+		title: "FoxStack",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 		widthFull: false,
 		// 导航栏图标和标题是否跟随主题色
@@ -73,7 +81,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01",
+	siteStartDate: "2026-01-01",
 
 	// 文章页底部的"上次编辑时间"卡片开关
 	showLastModified: true,
@@ -87,7 +95,7 @@ export const siteConfig: SiteConfig = {
 	// bangumi配置
 	bangumi: {
 		// Bangumi用户ID
-		userId: "1163581",
+		userId: "5532980",
 	},
 
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404
