@@ -1,16 +1,15 @@
 ---
 title: Volatile 的可见性是如何实现的？
-published: 1970-01-03
-description: 深入了解 Firefly 的布局系统，包括侧边栏布局（左侧/双侧）和文章列表布局（列表/网格），以及全新的三列网格模式。
-image: ./images/firefly1.webp
-tags: [Java, 并发编程]
-category: 博客指南
+published: 2026-01-03
+description: 很多人都知道 volatile 能保证可见性，但当面试官追问"可见性是如何实现的"时，往往答不上来。今天我们就从硬件到软件，层层剥开 volatile 可见性的实现原理。
+tags: [Java, JMM, 并发编程]
+category: Java并发编程
 draft: false
 ---
 
 ## 引言
 
-在 Java 面试中，volatile 是一个高频考点。很多人都知道 volatile 能保证可见性，但当面试官追问"可见性是如何实现的"时，往往答不上来。今天我们就从硬件到软件，层层剥开 volatile 可见性的实现原理。
+很多人都知道 volatile 能保证可见性，但当面试官追问"可见性是如何实现的"时，往往答不上来。今天我们就从硬件到软件，层层剥开 volatile 可见性的实现原理。
 
 ## 从一个问题开始
 
