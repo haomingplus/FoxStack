@@ -20,7 +20,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		position: "0% 20%",
 
 		// 主页横幅文字
-		homeText: {
+		/*homeText: {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
@@ -46,14 +46,14 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 完全显示后的暂停时间（毫秒）
 				pauseTime: 2000,
 			},
-		},
+		},*/
 		// 图片来源
 		credit: {
 			enable: {
 				// 桌面端显示横幅图片来源文本
-				desktop: true,
+				desktop: false,
 				// 移动端显示横幅图片来源文本
-				mobile: true,
+				mobile: false,
 			},
 			text: {
 				// 桌面端要显示的来源文本

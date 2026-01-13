@@ -17,7 +17,7 @@ export const profileConfig: ProfileConfig = {
 	// `pnpm add @iconify-json/<icon-set-name>`
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
-		{
+		/*{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
 			url: "https://space.bilibili.com/38932988",
@@ -40,6 +40,6 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-solid:rss",
 			url: "/rss/",
 			showName: false,
-		},
+		},*/
 	],
 };
